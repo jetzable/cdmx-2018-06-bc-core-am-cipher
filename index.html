@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1>Cifrado Cesar</h1>
+      <span>Indica una clave numérica para cifrar tu mensaje: </span><br>
+      <input type="number" name="desplazamiento" id="desplazamiento"><br>
+      <span>Mensaje: </span><br>
+      <input type="text" name="mensaje" id="firstMessage"><br>
+      <button type="button" name="button" onclick="getEncode()">Encriptar</button>
+      <button type="button" name="button" onclick="getDecode()">Desencriptar</button><br>
+      <span>Mensaje Codificado / Decodificado: </span>
+      <span id="resultado"> </span>
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
