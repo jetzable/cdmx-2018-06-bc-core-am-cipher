@@ -8,7 +8,7 @@ function getEncode(){
     cipher.encode(offset, string);
 };
 
-function getDecode(finalMessage){
+function getDecode(){
     console.log("prueba");
     const offset = (parseInt(document.getElementById("desplazamiento").value)) % 26;
     const string = document.getElementById("firstMessage").value;
