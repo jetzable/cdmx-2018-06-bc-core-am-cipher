@@ -1,0 +1,88 @@
+body{
+    color: #E5E5E5;
+}
+
+h1{
+    box-sizing: border-box;
+    border: 2px #555354;
+    margin: 50px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    border-radius: 15%;
+    display: table;
+    font-size: 200px;
+    font-family: 'Nova Round', cursive;
+	font-weight: 700;
+    text-align: center;
+    color: black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    text-shadow: 10px 6px rgba(219, 103, 47, 0.25);
+}
+
+
+#firstMessage{
+    box-sizing: border-box;
+    float: left;
+    margin: 5%;
+    height: 300px;
+    width: 25%;
+    background-color: #555354;
+    border: 0px;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+    font-size: 30px;
+    font-family: 'Nova Round', cursive;
+	font-weight: 300;
+}
+
+
+#resultado{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 300px;
+    width: 25%;
+    font-size: 30px;
+    font-family: 'Nova Round', cursive;
+	font-weight: 300;
+    border-radius: 15%;
+    margin: 30px 40px;
+    padding: 10px;
+    background-color: #20CCC0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    text-shadow: 10px 6px rgba(219, 103, 47, 0.25);
+    border: 0px;    
+
+}
+
+
+
+
+.centro{
+    box-sizing: border-box;
+    float: left;
+    margin: 3.4%;
+    height: 300px;
+    width: 25%;
+    background-color:white;
+    border: 0px;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+    text-align: center;
+
+}
+
+
+input::-webkit-input-placeholder{
+    font-family: 'Nova Round', cursive;
+    padding: 6%;
+    color: white;
+    position: relative;
+    top: -115px;
+    left: 10px;
+}
+

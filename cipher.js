@@ -21,7 +21,7 @@ window.cipher = {
                     console.log("puaaaa");
                 }
             }
-            resultado.innerHTML += finalMessage[i];
+            document.getElementById("resultado").value += finalMessage[i];
         }
     },
 
@@ -65,7 +65,7 @@ window.cipher = {
                 }
                 console.log(finalMessage[i].charCodeAt());
             }
-            resultado.innerHTML += finalMessage[i];      
+            document.getElementById("firstMessage").value += finalMessage[i];     
         }
     }
 }
