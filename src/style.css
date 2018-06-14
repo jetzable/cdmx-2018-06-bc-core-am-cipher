@@ -84,7 +84,7 @@ h1{
     font-weight: 200;
     text-align: right;
     align-content: center;
-    padding: 5px;
+    padding: 0px;
     margin: 20px;
     color: black;
     background-color: #20CCC0;
@@ -102,10 +102,8 @@ h1{
     font-size: 30px;
     font-weight: 200;
     text-align: left;
-    align-content: center;
     padding: 5px;
-    margin-right: 25px;
-    margin-bottom: 15px;
+    margin-left: 20px;
     color: black;
     background-color: rgba(0, 0, 0, 0.25);
     float: left;
@@ -129,7 +127,7 @@ h1{
     font-family: 'Nova Round', cursive;
     background-color:white;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
-    margin: 30px;
+    margin: 2.4em;
     right: 20px;
 }
 
