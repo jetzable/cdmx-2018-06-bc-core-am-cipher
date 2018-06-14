@@ -17,3 +17,5 @@ function getDecode(){
     console.log(string);
     cipher.decode(offset, string);
 };
+
+/*prueba*/
