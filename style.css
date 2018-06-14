@@ -73,11 +73,69 @@ h1{
     border-radius: 15%;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
     text-align: center;
+    align-content: center;
 
 }
 
 
-input::-webkit-input-placeholder{
+#firstButton{
+    box-sizing: border-box;
+    font-family: 'Nova Round', cursive;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: right;
+    align-content: center;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+    background-color: #20CCC0;
+    float: left;
+    width: 40%;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35); 
+}
+
+#secondButton{
+    box-sizing: border-box;
+    font-family: 'Nova Round', cursive;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+    align-content: center;
+    padding: 5px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.25);
+    float: right;
+    width: 40%;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35); 
+    font-family: 'Nova Round', cursive;   
+}
+
+#desplazamiento{
+
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 0px;
+    font-family: 'Nova Round', cursive;
+    background-color:white;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+    margin: 30px;
+    right: 20px;
+}
+
+
+.bigBox::-webkit-input-placeholder{
     font-family: 'Nova Round', cursive;
     padding: 6%;
     color: white;
@@ -86,3 +144,11 @@ input::-webkit-input-placeholder{
     left: 10px;
 }
 
+.key::-webkit-input-placeholder{
+    font-family: 'Nova Round', cursive;
+    padding: 6%;
+    color: black;
+    position: relative;
+    top: -20px;
+    left: 27    px;*/
+}

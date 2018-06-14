@@ -13,14 +13,14 @@
     <div id="root">
       <h1>i.Spy</h1>
       <!--<div id="original">-->
-        <input type="text" name="mensaje" id="firstMessage" placeholder="Mensaje: "><br>
+        <input type="text" name="mensaje" id="firstMessage" placeholder="Mensaje: " class="bigBox"><br>
       <!--</div>--> 
       <div class="centro">
-        <button type="button" name="button" onclick="getEncode()" aria-placeholder=">"></button><br>
-        <input type="number" name="desplazamiento" id="desplazamiento" placeholder="#"><br>
-        <button type="button" name="button" onclick="getDecode()" aria-placeholder="<"></button><br>
+        <button type="button" name="button" onclick="getEncode()" id="firstButton">></button><br>
+        <input type="number" name="desplazamiento" id="desplazamiento" placeholder="Key#" class="key"><br>
+        <button type="button" name="button" onclick="getDecode()" id="secondButton"><</button><br>
       </div>
-      <input type="text" id="resultado" placeholder="...">
+      <input type="text" id="resultado" placeholder="..." class="bigBox">
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
