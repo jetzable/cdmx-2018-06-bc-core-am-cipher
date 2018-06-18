@@ -69,5 +69,5 @@ window.cipher = {
             document.getElementById("resultado").value = " ";
             document.getElementById("firstMessage").value += finalMessage[i];     
         }
-    }
+    },
 }

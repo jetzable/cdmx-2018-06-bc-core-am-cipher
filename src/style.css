@@ -80,7 +80,7 @@ h1{
 #firstButton{
     box-sizing: border-box;
     font-family: 'Nova Round', cursive;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     text-align: right;
     align-content: center;
@@ -99,7 +99,7 @@ h1{
 #secondButton{
     box-sizing: border-box;
     font-family: 'Nova Round', cursive;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     text-align: left;
     padding: 5px;
@@ -147,7 +147,7 @@ h1{
     color: black;
     position: relative;
     top: -20px;
-    left: 27px;
+    left: 13px;
 }
 
 pre{

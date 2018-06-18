@@ -16,15 +16,15 @@
         <input type="text" name="mensaje" id="firstMessage" placeholder="Mensaje: " class="bigBox"><br>
       <!--</div>--> 
       <div class="centro">
-        <button type="button" name="button" onclick="getEncode()" id="firstButton">&gt</button><br>
-        <input type="number" name="desplazamiento" id="desplazamiento" placeholder="Key#" class="key" required><br>
-        <button type="button" name="button" onclick="getDecode()" id="secondButton">&lt</button><br>
+        <button type="button" name="button" onclick="getEncode()" id="firstButton">Secreto &gt;</button><br>
+        <input type="number" name="desplazamiento" id="desplazamiento" placeholder="Password #" class="key" required><br>
+        <button type="button" name="button" onclick="getDecode()" id="secondButton">&lt; Origen</button><br>
       </div>
       <input type="text" id="resultado" placeholder="..." class="bigBox">
   
       </div>
-      <pre>Mensaje: Cifra tu mensaje > ...
-        ... Descifra tu mensaje < Mensaje:</pre>
+      <pre>Mensaje Original: + Password # =&gt Mensaje Secreto en [...]
+        Mensaje Secreto en  [...] + Password # &lt= Mensaje Original en [Mensaje:]</pre>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
